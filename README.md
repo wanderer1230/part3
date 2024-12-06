@@ -35,10 +35,7 @@ python test.py --mode all --tvsearch True --resume 'model_path' --gpu 1 --datase
 
 
 
-
-
-
-### 5. Citation
+### 4. Citation
 Our code is referenced by this work:
 
 ```
@@ -53,6 +50,4 @@ Our code is referenced by this work:
 ```
 
 
-### 6. Contact
 
-If you have any question, please feel free to contact us. zhangyk@stu.xmu.edu.cn.
