@@ -1,0 +1,68 @@
+==> Building model..
+==> Loading data..
+==> Resuming from checkpoint..
+==> loading checkpoint sysu_deen_p4_n6_lr_0.1_seed_0_best.t
+==> loaded checkpoint sysu_deen_p4_n6_lr_0.1_seed_0_best.t (epoch 90)
+Dataset statistics:
+  ------------------------------
+  subset   | # ids | # images
+  ------------------------------
+  query    |    96 |     3803
+  gallery  |    96 |      301
+  ------------------------------
+Data Loading Time:	 4.581
+Extracting Query Feature...
+Extracting Time:	 46.780
+Extracting Gallery Feature...
+Extracting Time:	 4.624
+Test Trial: 0
+POOL:   Rank-1: 76.47% | Rank-5: 94.11% | Rank-10: 97.84%| Rank-20: 99.32%| mAP: 73.01%| mINP: 60.78%
+POOL:   Rank-1: 76.99% | Rank-5: 94.27% | Rank-10: 97.34%| Rank-20: 99.32%| mAP: 73.55%| mINP: 61.16%
+Extracting Gallery Feature...
+Extracting Time:	 3.712
+Test Trial: 1
+POOL:   Rank-1: 74.13% | Rank-5: 93.79% | Rank-10: 97.40%| Rank-20: 99.37%| mAP: 72.17%| mINP: 60.44%
+POOL:   Rank-1: 75.15% | Rank-5: 94.45% | Rank-10: 97.58%| Rank-20: 99.37%| mAP: 72.81%| mINP: 60.77%
+Extracting Gallery Feature...
+Extracting Time:	 3.922
+Test Trial: 2
+POOL:   Rank-1: 73.65% | Rank-5: 93.40% | Rank-10: 97.92%| Rank-20: 99.66%| mAP: 70.05%| mINP: 57.11%
+POOL:   Rank-1: 74.63% | Rank-5: 93.16% | Rank-10: 97.29%| Rank-20: 99.45%| mAP: 70.68%| mINP: 57.32%
+Extracting Gallery Feature...
+Extracting Time:	 3.492
+Test Trial: 3
+POOL:   Rank-1: 76.76% | Rank-5: 93.19% | Rank-10: 97.05%| Rank-20: 99.11%| mAP: 73.88%| mINP: 62.84%
+POOL:   Rank-1: 76.68% | Rank-5: 93.27% | Rank-10: 96.87%| Rank-20: 99.21%| mAP: 73.77%| mINP: 61.96%
+Extracting Gallery Feature...
+Extracting Time:	 3.413
+Test Trial: 4
+POOL:   Rank-1: 76.89% | Rank-5: 94.14% | Rank-10: 97.42%| Rank-20: 99.40%| mAP: 74.01%| mINP: 62.64%
+POOL:   Rank-1: 77.12% | Rank-5: 93.53% | Rank-10: 96.82%| Rank-20: 98.63%| mAP: 74.09%| mINP: 62.74%
+Extracting Gallery Feature...
+Extracting Time:	 3.410
+Test Trial: 5
+POOL:   Rank-1: 73.92% | Rank-5: 93.64% | Rank-10: 97.55%| Rank-20: 99.76%| mAP: 71.50%| mINP: 58.99%
+POOL:   Rank-1: 73.86% | Rank-5: 93.85% | Rank-10: 97.69%| Rank-20: 99.53%| mAP: 71.67%| mINP: 59.57%
+Extracting Gallery Feature...
+Extracting Time:	 3.370
+Test Trial: 6
+POOL:   Rank-1: 75.65% | Rank-5: 95.56% | Rank-10: 98.26%| Rank-20: 99.76%| mAP: 71.89%| mINP: 57.60%
+POOL:   Rank-1: 76.44% | Rank-5: 95.00% | Rank-10: 97.84%| Rank-20: 99.47%| mAP: 72.33%| mINP: 57.99%
+Extracting Gallery Feature...
+Extracting Time:	 3.410
+Test Trial: 7
+POOL:   Rank-1: 75.28% | Rank-5: 92.82% | Rank-10: 96.61%| Rank-20: 98.79%| mAP: 70.89%| mINP: 57.22%
+POOL:   Rank-1: 75.31% | Rank-5: 93.11% | Rank-10: 96.56%| Rank-20: 99.13%| mAP: 71.42%| mINP: 57.93%
+Extracting Gallery Feature...
+Extracting Time:	 3.732
+Test Trial: 8
+POOL:   Rank-1: 74.02% | Rank-5: 93.35% | Rank-10: 97.19%| Rank-20: 99.55%| mAP: 70.01%| mINP: 56.35%
+POOL:   Rank-1: 73.94% | Rank-5: 93.32% | Rank-10: 97.21%| Rank-20: 99.29%| mAP: 70.00%| mINP: 55.98%
+Extracting Gallery Feature...
+Extracting Time:	 3.870
+Test Trial: 9
+POOL:   Rank-1: 74.57% | Rank-5: 92.72% | Rank-10: 97.79%| Rank-20: 99.71%| mAP: 71.90%| mINP: 59.59%
+POOL:   Rank-1: 74.97% | Rank-5: 93.24% | Rank-10: 97.21%| Rank-20: 99.18%| mAP: 72.07%| mINP: 59.44%
+All Average:
+POOL:   Rank-1: 75.13% | Rank-5: 93.67% | Rank-10: 97.50%| Rank-20: 99.44%| mAP: 71.93%| mINP: 59.36%
+POOL:   Rank-1: 75.51% | Rank-5: 93.72% | Rank-10: 97.24%| Rank-20: 99.26%| mAP: 72.24%| mINP: 65.30%
